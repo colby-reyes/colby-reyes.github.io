@@ -4916,7 +4916,13 @@ input[type="button"].btn-block {
 }
 
 .card-link:hover {
-  text-decoration: none;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(244, 98, 58, 0.9);
+  -webkit-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+  /*text-decoration: none;*/
   border-color: #647a72;
   /*background-color: #647a72;*/
 }
